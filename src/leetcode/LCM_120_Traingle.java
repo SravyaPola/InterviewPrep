@@ -22,7 +22,7 @@ public class LCM_120_Traingle {
 		}
 		int down = triangle.get(i).get(j) + recursion(i + 1, j, triangle, n);
 		int diagonal = triangle.get(i).get(j) + recursion(i + 1, j + 1, triangle, n);
-		return dp.get(i).get(j) = Math.min(down, diagonal);
+		return dp. = Math.min(down, diagonal);
 	}
 
 	public static void main(String[] args) {

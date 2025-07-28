@@ -1,5 +1,6 @@
 package leetcode;
 
+// refer ninja training problem
 public class LCM_256_PaintHouse {
 	public int minCost(int[][] costs) {
 		int n = costs.length;
